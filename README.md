@@ -52,7 +52,7 @@ npm run dev
 ```
 This will run the backend on http://localhost:5000
 
-Frontend Setup
+# Frontend Setup
 Go to frontend/ directory
 
 Create a .env file:
