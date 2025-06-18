@@ -84,10 +84,10 @@ Submit
 
 Note: The same user (by email) cannot review the same product twice.
 
-Authentication
+# Authentication
 I haven’t implemented any authentication here. The user just enters a name and email and can post their review adhering to the current requirements.
 
-Tags System
+# Tags System
 I have implemented real-time tag generation based on submitted reviews.
 There is no separate schema or table for tags. Tags are generated using:
 
@@ -97,6 +97,6 @@ stopword – to remove stopwords
 
 This is processed on-the-fly when fetching reviews.
 
-Image Uploads
+# Image Uploads
 Images can be uploaded while submitting reviews.
 They are stored using Cloudinary and the image URL is saved with the review.
