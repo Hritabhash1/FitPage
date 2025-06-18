@@ -40,8 +40,8 @@ This project is built as part of the FitPage assessment. The goal is to create a
 ```env
 DB_HOST=localhost
 DB_USER=root
-DB_PASSWORD=yourpassword
-DB_NAME=ratings_db
+DB_PASSWORD= password 
+DB_NAME= test_db
 PORT=5000(example)
 ```
 Install dependencies and start server:
@@ -58,8 +58,8 @@ Go to frontend/ directory
 Create a .env file:
 
 ```env
-VITE_CLOUDINARY_UPLOAD_PRESET=your_preset
-VITE_CLOUDINARY_CLOUD_NAME=your_cloud_name
+VITE_CLOUDINARY_UPLOAD_PRESET=your_preset of cloudinary
+VITE_CLOUDINARY_CLOUD_NAME=your_cloud_name ofcloudinary
 ```
 Install dependencies and run the frontend:
 
