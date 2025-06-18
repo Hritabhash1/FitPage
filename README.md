@@ -42,12 +42,14 @@ DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=yourpassword
 DB_NAME=ratings_db
-PORT=5000
+PORT=5000(example)
+```
 Install dependencies and start server:
 
-
+```
 npm install
 npm run dev
+```
 This will run the backend on http://localhost:5000
 
 Frontend Setup
@@ -55,19 +57,19 @@ Go to frontend/ directory
 
 Create a .env file:
 
-env
-Copy
-Edit
+```env
 VITE_CLOUDINARY_UPLOAD_PRESET=your_preset
 VITE_CLOUDINARY_CLOUD_NAME=your_cloud_name
+```
 Install dependencies and run the frontend:
 
-
+```
 npm install
 npm run dev
+```
 App will be available at http://localhost:5173
 
-How to Test
+## How to Test
 Go to the homepage
 
 Select a product
@@ -83,10 +85,10 @@ Submit
 Note: The same user (by email) cannot review the same product twice.
 
 Authentication
-We haven’t implemented any authentication here. The user just enters a name and email and can post their review. This is sufficient for the current requirements.
+I haven’t implemented any authentication here. The user just enters a name and email and can post their review adhering to the current requirements.
 
 Tags System
-We have implemented real-time tag generation based on submitted reviews.
+I have implemented real-time tag generation based on submitted reviews.
 There is no separate schema or table for tags. Tags are generated using:
 
 natural – for basic tokenization/stemming
